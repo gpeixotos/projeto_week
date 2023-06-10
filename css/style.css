@@ -16,7 +16,7 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 70.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
@@ -154,7 +154,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/1.png) no-repeat;
+    background:url(../imagens/1.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -184,11 +184,11 @@ section{
     flex-wrap: wrap;
 }
 
-.sobre .row .image{
+.sobre .row .imagens{
     flex:1 1 45rem;
 }
 
-.sobre .row .image img{
+.sobre .row .imagens img{
     width: 100%;
 }
 .sobre .row .conteudo{
@@ -208,61 +208,61 @@ section{
     line-height: 1.8;
 }
 
-.menu .box-container{
+.menu .box-conteudo{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.menu .box-container .box{
+.menu .box-conteudo .box{
     padding:5rem;
     text-align: center;
     border:var(--border);    
 }
 
-.menu .box-container .box img{
+.menu .box-conteudo .box img{
     height: 10rem;
 }
 
-.menu .box-container .box h3{
+.menu .box-conteudo .box h3{
     color: #fff;
     font-size: 2rem;
     padding:1rem 0;
 }
 
-.menu .box-container .box .preco{
+.menu .box-conteudo .box .preco{
     color: #fff;
     font-size: 2.5rem;
     padding:.5rem 0;
 }
 
-.menu .box-container .box .preco span{
+.menu .box-conteudo .box .preco span{
     font-size: 1.5rem;
     text-decoration: line-through;
     font-weight: lighter;
 }
 
-.menu .box-container .box:hover{
+.menu .box-conteudo .box:hover{
     background:#fff;
 }
 
-.menu .box-container .box:hover > *{
+.menu .box-conteudo .box:hover > *{
     color:var(--black);
 }
 
-.produtos .box-container{
+.produtos .box-conteudo{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.produtos .box-container .box{
+.produtos .box-conteudo .box{
     text-align: center;
     border:var(--border);
     padding: 2rem;
 }
 
-.produtos .box-container .box .icones a{
+.produtos .box-conteudo .box .icones a{
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -272,77 +272,77 @@ section{
     margin:.3rem;
 }
 
-.produtos .box-container .box .icones a:hover{
+.produtos .box-conteudo .box .icones a:hover{
     background:var(--main-color);
 }
 
-.produtos .box-container .box .image{
+.produtos .box-conteudo .box .imagens{
     padding: 2.5rem 0;
 }
 
-.produtos .box-container .box .image img{
+.produtos .box-conteudo .box .imagens img{
     height: 25rem;
     max-width: 100%;
 }
 
-.produtos .box-container .box .conteudo h3{
+.produtos .box-conteudo .box .conteudo h3{
     color:#fff;
     font-size: 2.5rem;
 }
 
-.produtos .box-container .box .conteudo .stars{
+.produtos .box-conteudo .box .conteudo .stars{
     padding: 1.5rem;
 }
 
-.produtos .box-container .box .conteudo .stars i{
+.produtos .box-conteudo .box .conteudo .stars i{
     font-size: 1.7rem;
     color: var(--main-color);
 }
 
-.produtos .box-container .box .conteudo .preco{
+.produtos .box-conteudo .box .conteudo .preco{
     color:#fff;
     font-size: 2.5rem;
 }
 
-.produtos .box-container .box .conteudo .preco span{
+.produtos .box-conteudo .box .conteudo .preco span{
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
 }
 
-.depoimento .box-container{
+.depoimento .box-conteudo{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.depoimento .box-container .box{
+.depoimento .box-conteudo .box{
     border:var(--border);
     text-align: center;
     padding:3rem 2rem;
 }
 
-.depoimento .box-container .box p{
+.depoimento .box-conteudo .box p{
     font-size: 1.5rem;
     line-height: 1.8;
     color:#ccc;
     padding:2rem 0;
 }
 
-.depoimento .box-container .box .user{
+.depoimento .box-conteudo .box .user{
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.depoimento .box-container .box h3{
+.depoimento .box-conteudo .box h3{
     padding:1rem 0;
     font-size: 2rem;
     color:#fff;
 }
 
-.depoimento .box-container .box .stars i{
+.depoimento .box-conteudo .box .stars i{
     font-size: 1.5rem;
     color:var(--main-color);
 }
