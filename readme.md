@@ -65,11 +65,9 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 ## 🎁 Expressões de gratidão
 
-* Gostaria de expressar meu sincero agradecimento a todos que apoiaram e 
-* contribuíram para este projeto. Seja através de sugestões, testes, feedback ou 
-* código, sua ajuda foi fundamental para tornar este projeto uma realidade. Estou 
-* muito grato pela sua participação e pela confiança depositada em mim e na 
-* equipe.
+* Gostaria de expressar meu sincero agradecimento a todos que apoiaram e  contribuíram para este projeto. Seja através de sugestões, testes, feedback ou código, sua ajuda foi fundamental para tornar este projeto uma realidade. 
+
+* Estou  muito grato pela sua participação e pela confiança depositada em mim e na  equipe.
 
 * Um grande abraço a todos!
 
