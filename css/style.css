@@ -282,6 +282,7 @@ section{
 
 .produtos .box-container .box .image img{
     height: 25rem;
+    max-width: 100%;
 }
 
 .produtos .box-container .box .conteudo h3{
