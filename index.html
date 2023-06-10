@@ -5,102 +5,329 @@
     <meta http-equiv="X-UA-Compatible" conteudo="IE=edge">
     <meta name="viewport" conteudo="width=device-width, initial-scale=1.0">
     <title>Restaurante Software & Brasa</title>
+    <!--Icone Aba Navegador-->
+    <link rel="icon" type="image/png" href="images/logo.png" height="30px" width="30px"/>
+
+    <!--Fonte externa  de estilo icones, site de referencia https://fontawesome.com, e link  do cdn Cloudflare -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Arquivo css  link  -->
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 <body>
     
-     
-    <header class="header">
-        
-        <a href="#" class="logo">
-            <img src="images/logo.png" alt="Software & Brasa">
-        </a>
-        
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre nós</a>
-            <a href="#contato">Contato</a>
-            
-        </nav>
+<!-- Inicio da seção header -->
 
-    </header>
+<header class="header">
 
-    <section class="home" id="home">
-        
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#contato">contato</a>
+    </nav>
+
+    <div class="icones">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+   
+</header>
+
+<!--  fim da sessão header -->
+
+<!-- nicio da sessão home  -->
+
+<section class="home" id="home">
+
+    <div class="conteudo">
+        <h3>Restaurante Software & Brasa</h3>
+        <p>Nosso restaurante é um lugar acolhedor e descontraído que serve comida deliciosa saudável.Nós nos orgulhamos de usar ingredientes frescos e locais em nossos pratos, e nossa equipe é amigável e atenciosa.</p>
+        <a href="#" class="btn">Saiba mais.</a>
+    </div>
+
+</section>
+
+<!--  fim da sessão home-->
+
+<!-- inicio  da sessão sobre-->
+
+<section class="sobre" id="sobre">
+
+    <h1 class="heading"> <span>Sobre</span> nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/sobre.png" alt="">
+        </div>
+
         <div class="conteudo">
-            <h3>Restaurante Software & Brasa</h3>
-            <p>Nosso restaurante é um lugar acolhedor e descontraído que serve comida deliciosa e saudável.
-                Nós nos orgulhamos de usar ingredientes frescos e locais em nossos pratos, e nossa equipe é amigável e atenciosa.
-                Venha nos visitar para uma refeição deliciosa em um ambiente agradável!.
-            </p>
-            <a href="#contato" class="btn">Entre em contato</a>
+            <h3>O que nos torna especiais?</h3>
+            <p>Nosso restaurante é um lugar acolhedor e descontraído que serve comida deliciosa e saudável. Nós nos orgulhamos de usar ingredientes frescos e locais em nossos pratos, e nossa equipe é amigável e atenciosa. Venha nos visitar para uma refeição deliciosa em um ambiente agradável!</p>
+            <a href="#" class="btn">Saiba mais</a>
         </div>
-        
-    </section>
-    
-    <section class="sobre" id="sobre">
-        
-        <h1 class="heading"> <span>Sobre</span> nós </h1>
-        
-        <div class="row">
-            
-            <div class="imagem">
-                <img src="images/sobr.png"  alt="">
+
+    </div>
+
+</section>
+
+<!-- Fim sessao sobre -->
+
+<!-- Inicio menu  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> nossos <span>pratos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.png" alt="">
+            <h3>Arroz, file e fritas</h3>
+            <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+            <a href="#" class="btn">Fazer pedido</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.png" alt="">
+            <h3>Frango com gergelim </h3>
+            <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+            <a href="#" class="btn">Fazer pedido</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.png" alt="">
+            <h3>Macarrão com camarão</h3>
+            <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+            <a href="#" class="btn">Fazer pedido</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-4.png" alt="">
+            <h3>Espaguete</h3>
+            <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+            <a href="#" class="btn">Fazer pedido</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-5.png" alt="">
+            <h3>Legumes Grelhados</h3>
+            <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+            <a href="#" class="btn">Fazer pedido</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cafezinho.png" alt="">
+            <h3>cafezinho programador</h3>
+            <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+            <a href="#" class="btn">Fazer pedido</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Fim menu -->
+
+<!--Inicio produtos-->
+<section class="produtos" id="produtos">
+
+    <h1 class="heading"> Nossos <span>produtos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icones">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
             </div>
-            
+            <div class="image">
+                <img src="images/produto-1.png" alt="">
+            </div>
             <div class="conteudo">
-                <h3>O que nos torna especiais?</h3>
-                <p>Nosso restaurante é um lugar acolhedor e descontraído que serve comida deliciosa e saudável.
-                    Nós nos orgulhamos de usar ingredientes frescos e locais em nossos pratos, e nossa equipe é amigável e atenciosa.
-                    Venha nos visitar para uma refeição deliciosa em um ambiente agradável!
-                </p>
-                <a href="#" class="btn">Saiba mais</a>
-                
+                <h3>Fraudinha</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="preco">R$ 75,99 <span>R$ 89,99</span></div>
             </div>
-            
+        </div>
+
+        <div class="box">
+            <div class="icones">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/produto-2.png" alt="">
+            </div>
+            <div class="conteudo">
+                <h3>Batatas fritas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="preco">R$ 21,99 <span>R$ 25.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icones">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/produto-3.png" alt="">
+            </div>
+            <div class="conteudo">
+                <h3>croquetes </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="preco">R$ 25,99 <span>R$ 29,99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!--Fim Produtos-->
+
+<!-- Inicio depoimentos  -->
+
+<section class="depoimento" id="depoimento">
+
+    <h1 class="heading"> depoimento <span>Clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/aspas.png" alt="" class="aspas">
+            <p>O ambiente é agradável, mas no dia que fomos estava muito cheio, bem barulhento, e isso atrasava um pouco o atendimento e os pedidos. Os preços são altos, mas a qualidade é indiscutível, tudo muito gostoso.</p>
+            <img src="images/cliente-1.png" class="user" alt="">
+            <h3>João Pedro</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/aspas.png" alt="" class="aspas">
+            <p>Eu amei minha 1 experiência  no restaurante, comida boa , bons drinks, atendimento  bom, somente o ambiente  é  bastante  quente , porém  tudo nota 100% sem o que reclamar</p>
+            <img src="images/cliente-2.png" class="user" alt="">
+            <h3>Laura Dias</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
         </div>
         
-    </section>
-    
-    <section class="contato" id="contato">
-        
-        <h1 class="heading"> <span>contate</span> nos </h1>
-        
-        <div class="row">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15946578.307474507!2d-35.07082744559574!3d-12.634382019798293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1685923616585!5m2!1spt-BR!2sbr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
-            <form action="">
-                <h3>Entre em contato</h3>
-                <div class="inputBox">
-                    <span class="nome-contato"></span>
-                    <input type="text" placeholder="Nome:">
-                </div>
-                <div class="inputBox">
-                    <span class="email-contato"></span>
-                    <input type="email" placeholder="email:">
-                </div>
-                <div class="inputBox">
-                    <span class="numero-contato"></span>
-                    <input type="number" placeholder="numero:">
-                </div>
-                <input type="submit" value="contato" class="btn">
-            </form>
-            
+        <div class="box">
+            <img src="images/aspas.png" alt="" class="aspas">
+            <p>O local é perfeito para uma comemoração! Os funcionários são muito atenciosos. Já fui duas vezes e pretendo voltar noutros momentos com mais integrantes da família. Super recomendo! </p>
+            <img src="images/cliente-3.png" class="user" alt="">
+            <h3>Gabriel Lima</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
         </div>
+
+    </div>
+
+</section>
+
+<!-- Fim depoimentos -->
+
+<!-- Inicio Contato  -->
+
+<section class="contato" id="contato">
+
+    <h1 class="heading"> <span>contate</span> nos </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15946578.307474507!2d-35.07082744559574!3d-12.634382019798293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1685923616585!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>contato</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Nome" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="e-mail"required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="(99) 99999-9999"required>
+            </div>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- Fim Contato -->
+
+
+
+<!-- Inico Rodape   -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#sobre">sobre nós</a>
+        <a href="#contato">contato</a>
         
-    </section>
-    
-    <section class="footer">
-                  
-        <div class="links">
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre nós</a>
-            <a href="#contato">contato</a>
-        </div>
-        
-        <div class="credito">Criado por Grupo 2 <span>Soft eng, Studing</span> | todos direitos reservados</div>
-        
-    </section>
-    
+    </div>
+
+    <div class="credito"><span>Iniciativa </span>Projeto week <span>Grupo II</span> Engenharia<span> de </span>Software</div>
+
+</section>
+<!--Fim Rodape-->
+
 </body>
 </html>
