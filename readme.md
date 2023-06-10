@@ -10,53 +10,53 @@ Durante reunião de Grupo em WhatsApp, Discord, de um pequeno grupo de alunos do
 
 ### 📋 Pré-requisitos
 
-Ter qualquer editor de textos para visualizar o codigo.
-Só é necessario ter um navegador para abrir o index.html
+* Qualquer editor de textos para visualizar o codigo.
+* Só é necessario ter um navegador para abrir o index.html
 
 ### 🔧 Instalação
 
-Clone este repositório para o seu ambiente de desenvolvimento:
+* Clone este repositório para o seu ambiente de desenvolvimento:
 
-bash
-Copy code
-git clone https://github.com/gpeixotos/projeto-week
+* bash
+* Copy code
+* git clone https://github.com/gpeixotos/projeto-week
 
 
 ## ⚙️ Executando os testes
 
-Navegue até o diretório raiz do projeto.
-Abra o arquivo index.html em um navegador da web
+* Navegue até o diretório raiz do projeto.
+* Abra o arquivo index.html em um navegador da web
 
 
 ## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+* Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
-Notepad++
-vscode
+* Notepad++
+* vscode
 
 ## 🖇️ Colaboradores
 
 #### Grupo II ###
 
-Peixoto
-Ramon
-Anderson
-Samuel
+* Peixoto
+* Ramon
+* Anderson
+* Samuel
 
 ## 📌 Versão
 
-HTML5
-CSS3
+* HTML5
+* CSS3
 
 ## ✒️ Autores
 
-Peixoto
-Ramon
-Anderson
-Samuel
+* Peixoto
+* Ramon
+* Anderson
+* Samuel
 
 
 ## 📄 Licença
