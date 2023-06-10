@@ -61,7 +61,7 @@ Durante reunião de Grupo em WhatsApp, Discord, de um pequeno grupo de alunos do
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/gpeixotos/projeto_week/licenca) para detalhes.
+Este projeto está sob a licença - veja o arquivo [LICENSE.md](https://github.com/gpeixotos/projeto_week/licenca) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
